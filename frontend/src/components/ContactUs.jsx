@@ -88,38 +88,28 @@ function ContactUs() {
             <h5 className="text-warning mb-3">Get In Touch</h5>
 
             <Row className="mb-4">
-              <Col md={6} className="mb-3">
-                <Card className="bg-dark text-white p-3">
-                  <Card.Body className="d-flex align-items-center">
-                    <div className="me-3">
-                      <i
-                        className="bi bi-telephone-fill"
-                        style={{ fontSize: "1.5rem", color: "#F39C12" }}
-                      ></i>
-                    </div>
-                    <div>
-                      <Card.Title>Call Now</Card.Title>
-                      <Card.Text>(+91) 8951960110 / +1 216 800-7148</Card.Text>
-                    </div>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col md={6} className="mb-3">
-                <Card className="bg-dark text-white p-3">
-                  <Card.Body className="d-flex align-items-center">
-                    <div className="me-3">
-                      <i
-                        className="bi bi-envelope-fill"
-                        style={{ fontSize: "1.5rem", color: "#F39C12" }}
-                      ></i>
-                    </div>
-                    <div>
-                      <Card.Title>Email</Card.Title>
-                      <Card.Text>sales@preciseaxis.com</Card.Text>
-                    </div>
-                  </Card.Body>
-                </Card>
-              </Col>
+            <Col md={3} className="mb-4">
+            <h5>Get in Touch</h5>
+            <p className="d-flex align-items-start gap-2">
+              <i className="fa-solid fa-location-dot mt-3 fa-xl" style={{ color: "#F39C12" }}></i> No. 880 , Rajiv
+              Gandhi Nagar, Bangalore 560097,India
+            </p>
+            <p className="d-flex align-items-start gap-2">
+              <i className="fa-solid fa-location-dot mt-3 fa-xl" style={{ color: "#F39C12" }}></i> 15728,Lorain Ave, Unit #170 , Cleveland , OH 44111 , USA
+            </p>
+            <p className="d-flex align-items-center gap-2">
+              <i className="bi bi-envelope-fill" style={{ color: "#F39C12" }}></i>
+              sales@preciseaxis.com
+            </p>
+            <p className="d-flex align-items-center gap-2">
+              <i className="bi bi-envelope-fill" style={{ color: "#F39C12" }}></i>
+              preciseaxis@gmail.com
+            </p>
+            <p className="d-flex align-items-center gap-2">
+              <i className="bi bi-telephone-fill" style={{ color: "#F39C12" }}></i>
+              (+91) 8951960110  <br /> +1 216 800-7148
+            </p>
+          </Col>
 
               <Col md={12} className="mb-3">
                 <Card className="bg-dark text-white p-3">
