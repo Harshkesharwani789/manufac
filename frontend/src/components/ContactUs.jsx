@@ -34,7 +34,7 @@ function ContactUs() {
     }
 
     try {
-      const response = await fetch('http://localhost:5001/send-email', {
+      const response = await fetch('https://manufac-yo58.onrender.com/send-email', {
         method: 'POST',
         body: formDataToSend,
       });

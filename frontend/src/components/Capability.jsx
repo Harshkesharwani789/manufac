@@ -423,29 +423,36 @@ function App() {
 
               {/* Get in Touch */}
               <Col md={3} className="mb-4">
-                <h5>Get in Touch</h5>
-                <p className="d-flex align-items-start gap-2">
-                  <i class="fa-solid fa-location-dot mt-3 fa-xl" style={{ color: "#F39C12" }}></i> No. 880 , Rajiv
-                  Gandhi Nagar, Bangalore 560097,India
-                </p>
-                <p className="d-flex align-items-start gap-2">
-                  <i class="fa-solid fa-location-dot mt-3 fa-xl" style={{ color: "#F39C12" }}></i> 15728,Lorain Ave, Unit #170 , Cleveland , OH 44111 , USA
-                </p>
-                <p className="d-flex align-items-center gap-2">
-                  <i
-                    className="bi bi-envelope-fill"
-                    style={{ color: "#F39C12" }}
-                  ></i>
-                  sales@preciseaxis.com
-                </p>
-                <p className="d-flex align-items-center gap-2">
-                  <i
-                    className="bi bi-telephone-fill"
-                    style={{ color: "#F39C12" }}
-                  ></i>
-                  (+91) 8951960110  <br /> +1 216 800-7148
-                </p>
-              </Col>
+  <h5>Get in Touch</h5>
+  <p className="d-flex align-items-start gap-2">
+    <i class="fa-solid fa-location-dot mt-3 fa-xl" style={{ color: "#F39C12" }}></i> No. 880 , Rajiv
+    Gandhi Nagar, Bangalore 560097,India
+  </p>
+  <p className="d-flex align-items-start gap-2">
+    <i class="fa-solid fa-location-dot mt-3 fa-xl" style={{ color: "#F39C12" }}></i> 15728,Lorain Ave, Unit #170 , Cleveland , OH 44111 , USA
+  </p>
+  <p className="d-flex align-items-center gap-2">
+    <i
+      className="bi bi-envelope-fill"
+      style={{ color: "#F39C12" }}
+    ></i>
+    sales@preciseaxis.com
+  </p>
+  <p className="d-flex align-items-center gap-2">
+    <i
+      className="bi bi-envelope-fill"
+      style={{ color: "#F39C12" }}
+    ></i>
+    preciseaxis@gmail.com
+  </p>
+  <p className="d-flex align-items-center gap-2">
+    <i
+      className="bi bi-telephone-fill"
+      style={{ color: "#F39C12" }}
+    ></i>
+    (+91) 8951960110  <br /> +1 216 800-7148
+  </p>
+</Col>
             </Row>
 
             {/* Footer Bottom */}
