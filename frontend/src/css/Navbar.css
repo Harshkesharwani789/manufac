@@ -1,0 +1,94 @@
+/* src/components/Navbar.css */
+.navbarx {
+  position: absolute;
+  top: 12px;
+  left: 107px;
+  right: 111px;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  background: #721213;
+  z-index: 10;
+  padding: 6px 14px;
+  border-radius: 12px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbarx {
+    flex-direction: column; /* Stack items vertically */
+    left: 10px;
+    right: 10px;
+    padding: 10px;
+  }
+
+  .navbarx .navbar-logo img {
+    width: 140px !important; 
+  }
+
+  .navbar-links {
+    display: none; /* Hide links on small screens initially */
+    flex-direction: column;
+    gap: 5px;
+    width: 100%; /* Take full width */
+    text-align: center; /* Center links */
+    align-items: center;
+  }
+
+  .navbar-links.show {
+    display: flex; /* Show links when toggled */
+  }
+
+  .navbar-button {
+    margin-top: 10px; /* Space below the menu */
+  }
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  text-decoration: dashed;
+  color: #fff;
+  font-weight:600;
+  font-size: 14px;
+  /* padding: 20px 15px; */
+  transition: color 0.3s;
+  padding: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.navbar-links a:hover {
+  color: #ff9800; /* Hover color for links */
+}
+
+/* Make Appointment Button */
+.navbar-button .appointment-btn {
+  background-color: #ff9800;
+  color: #fff;
+  padding: 10px 10px; /* Increase padding */
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.navbar-button .appointment-btn:hover {
+  background-color: #e68900;
+}
+
+/* Hamburger icon for small screens */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block; /* Show on small screens */
+  }
+}
